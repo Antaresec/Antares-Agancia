@@ -1,138 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANTARES - Soluciones Comunicacionales</title>
-    <style>
-        body {
-            font-family: 'Arial Rounded MT', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        header {
-            background-image: url('https://via.placeholder.com/1500x200');
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            padding: 50px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3em;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-        nav {
-            background-color: #319966;
-            overflow: hidden;
-        }
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #113B49;
-        }
-        section {
-            padding: 40px;
-            max-width: 1200px;
-            margin: auto;
-            background-color: #fff;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-        section h2 {
-            color: #113B49;
-        }
-        footer {
-            background-color: #113B49;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-        .social-icons a {
-            margin: 0 10px;
-            color: white;
-            text-decoration: none;
-        }
-        .social-icons a:hover {
-            color: #ffcc00;
-        }
-        .clients img {
-            max-width: 100px;
-            margin: 10px;
-        }
-        #about, #contact, #podcast {
-            background-image: url('https://via.placeholder.com/1500x500');
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            text-align: center;
-            padding: 100px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANTARES: Soluciones Comunicacionales</title>
+  <style>
+    body {
+      font-family: 'Arial Rounded MT', Arial, sans-serif;
+      color: #113B49;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+      color: #319966;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    a {
+      color: #319966;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
     <header>
-        <h1>ANTARES</h1>
-        <p>Soluciones Comunicacionales Digitales e Impresas</p>
+      <h1>ANTARES: Soluciones Comunicacionales</h1>
     </header>
-    <nav>
-        <a href="#contact">Contactos</a>
-        <a href="#about">Quiénes Somos</a>
-        <a href="#services">Servicios</a>
-        <a href="#blog">Blog</a>
-        <a href="#clients">Clientes</a>
-        <a href="#portfolio">Portafolio</a>
-        <a href="#social">Redes Sociales</a>
-        <a href="#podcast">Nuestro Podcast</a>
-    </nav>
-    <section id="contact">
-        <h2>Contactos</h2>
-        <!-- Aquí puedes agregar tu formulario de contacto -->
+    
+    <section id="quienes-somos">
+      <h2>Quiénes Somos</h2>
+      <p>En el corazón de la vanguardia comunicacional se encuentra ANTARES, una agencia comprometida con la excelencia y la innovación en el campo de la comunicación digital e impresa. Con un enfoque inflexible en la personalización y la calidad, ANTARES se erige como un faro de creatividad y profesionalismo en un mundo saturado de información.</p>
+      <!-- Más contenido sobre Quiénes Somos -->
     </section>
-    <section id="about">
-        <h2>Quiénes Somos</h2>
-        <!-- Aquí puedes agregar información sobre tu empresa -->
+
+    <section id="nuestros-servicios">
+      <h2>Nuestros Servicios</h2>
+      <ul>
+        <li><strong>Marketing Digital:</strong> ¿Quieres llevar tu negocio al siguiente nivel en línea? ...</li>
+        <!-- Más detalles sobre los servicios -->
+      </ul>
     </section>
-    <section id="services">
-        <h2>Servicios</h2>
-        <!-- Aquí puedes listar tus servicios -->
+
+    <section id="clientes">
+      <h2>Clientes</h2>
+      <ul>
+        <li>nombre del Cliente <img src="ruta_de_la_imagen" alt="nombre del Cliente"></li>
+        <!-- Información de los clientes -->
+      </ul>
     </section>
+
     <section id="blog">
-        <h2>Blog</h2>
-        <!-- Aquí puedes agregar entradas de blog -->
+      <h2>Blog</h2>
+      <ul>
+        <li><a href="#">La Comunicación Efectiva en Redes</a></li>
+        <!-- Artículos del blog -->
+      </ul>
     </section>
-    <section id="clients">
-        <h2>Clientes</h2>
-        <!-- Aquí puedes mostrar logos de tus clientes -->
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <p>¡Contáctanos hoy mismo para comenzar a trabajar juntos en tu próximo proyecto!</p>
+      <p>Whatsapp: <a href="https://wa.me/593995501940">+593995501940</a></p>
     </section>
-    <section id="portfolio">
-        <h2>Portafolio</h2>
-        <!-- Aquí puedes mostrar tu portafolio -->
-    </section>
-    <section id="social">
-        <h2>Redes Sociales</h2>
-        <!-- Aquí puedes agregar enlaces a tus redes sociales -->
-    </section>
-    <section id="podcast">
-        <h2>Nuestro Podcast</h2>
-        <!-- Aquí puedes agregar información sobre tu podcast -->
-    </section>
+
     <footer>
-        <div class="social-icons">
-            <a href="https://www.facebook.com/antares" target="_blank">Facebook</a>
-            <a href="https://www.twitter.com/antares" target="_blank">Twitter</a>
-            <a href="https://www.linkedin.com/company/antares" target="_blank">LinkedIn</a>
-        </div>
-        <p>&copy; 2024 ANTARES. Todos los derechos reservados.</p>
+      <h3>Redes Sociales</h3>
+      <p>Facebook: <a href="https://www.facebook.com/Antaresdigital">Antaresdigital</a></p>
+      <!-- Más enlaces a redes sociales -->
     </footer>
+  </div>
 </body>
 </html>
