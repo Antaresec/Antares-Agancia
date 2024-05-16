@@ -1,146 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANTARES - Soluciones Comunicacionales</title>
-    <style>
-        body {
-            font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        header {
-            background-color: #113B49;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        nav {
-            background-color: #319966;
-            overflow: hidden;
-        }
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #113B49;
-        }
-        section {
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-        footer {
-            background-color: #113B49;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .social-icons a {
-            margin: 0 10px;
-            color: white;
-            text-decoration: none;
-        }
-        .social-icons a:hover {
-            color: #ffcc00;
-        }
-        .clients img {
-            max-width: 100px;
-            margin: 10px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANTARES: Soluciones Comunicacionales</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1, h2, h3 {
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    color: #113B49;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-style: italic;
+    color: #319966;
+  }
+  p {
+    font-family: 'Arial Rounded MT', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+</style>
 </head>
 <body>
-    <header>
-        <h1>ANTARES</h1>
-        <p>Soluciones Comunicacionales Digitales e Impresas</p>
-    </header>
-    <nav>
-        <a href="#contact">Contactos</a>
-        <a href="#about">Quiénes Somos</a>
-        <a href="#services">Servicios</a>
-        <a href="#blog">Blog</a>
-        <a href="#clients">Clientes</a>
-        <a href="#portfolio">Portafolio</a>
-        <a href="#social">Redes Sociales</a>
-    </nav>
-    <section id="contact">
-        <h2>Contactos</h2>
-        <p>¿Tienes alguna pregunta o quieres trabajar con nosotros? Contáctanos:</p>
-        <form action="mailto:contacto@antares.com" method="post" enctype="text/plain">
-            <label for="name">Nombre:</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Mensaje:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br>
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
-    <section id="about">
-        <h2>Quiénes Somos</h2>
-        <p>ANTARES es una agencia de comunicación que se especializa en ofrecer soluciones integrales de comunicación tanto digitales como impresas. Nos distinguimos por nuestra capacidad para personalizar todos nuestros servicios, asegurándonos de cumplir con las necesidades específicas de cada cliente. Nuestra misión es transformar la comunicación de las empresas a través de estrategias innovadoras y efectivas, garantizando resultados excepcionales y una presencia de marca sólida.</p>
-    </section>
-    <section id="services">
-        <h2>Servicios</h2>
-        <p>En ANTARES, ofrecemos una amplia gama de servicios diseñados para mejorar la comunicación de tu empresa:</p>
-        <ul>
-            <li>Consultoría en Comunicación</li>
-            <li>Desarrollo de Estrategias Digitales</li>
-            <li>Diseño Gráfico y Producción Impresa</li>
-            <li>Gestión de Redes Sociales</li>
-            <li>Creación de Contenidos</li>
-            <li>Marketing Digital</li>
-            <li>Relaciones Públicas</li>
-        </ul>
-    </section>
-    <section id="blog">
-        <h2>Blog</h2>
-        <p>Lee nuestras últimas publicaciones sobre comunicación e innovación:</p>
-        <!-- Aquí puedes agregar entradas de blog -->
-    </section>
-    <section id="clients">
-        <h2>Clientes</h2>
-        <p>Nos enorgullece trabajar con una amplia variedad de clientes. Aquí algunos de ellos:</p>
-        <div class="clients">
-            <!-- Ejemplo de clientes con logos -->
-            <img src="logo1.png" alt="Cliente 1">
-            <img src="logo2.png" alt="Cliente 2">
-            <img src="logo3.png" alt="Cliente 3">
-            <!-- Agrega más logos según sea necesario -->
-        </div>
-    </section>
-    <section id="portfolio">
-        <h2>Portafolio</h2>
-        <p>Descubre algunos de nuestros proyectos más destacados:</p>
-        <!-- Aquí puedes agregar ejemplos de trabajos realizados, imágenes y descripciones -->
-    </section>
-    <section id="social">
-        <h2>Redes Sociales</h2>
-        <p>Síguenos en nuestras redes sociales:</p>
-        <div class="social-icons">
-            <a href="https://www.facebook.com/antares" target="_blank">Facebook</a>
-            <a href="https://www.twitter.com/antares" target="_blank">Twitter</a>
-            <a href="https://www.linkedin.com/company/antares" target="_blank">LinkedIn</a>
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2024 ANTARES. Todos los derechos reservados.</p>
-    </footer>
+
+<div class="container">
+  <h1>ANTARES: Soluciones Comunicacionales</h1>
+
+  <h2>Quiénes Somos</h2>
+  <p>En ANTARES, nos especializamos en proporcionar soluciones comunicacionales personalizadas para empresas y organizaciones. Con una combinación única de creatividad y experiencia, ayudamos a nuestros clientes a destacar en un mercado cada vez más competitivo.</p>
+
+  <h2>Nuestros Servicios</h2>
+  <p>Descubre cómo podemos ayudarte a alcanzar tus objetivos de comunicación. Desde diseño gráfico hasta estrategias de marketing digital, personalizamos cada servicio para satisfacer tus necesidades específicas.</p>
+  <ul>
+    <li>Marketing digital</li>
+    <li>Marketing</li>
+    <li>Community Manager</li>
+    <li>Diseño gráfico</li>
+    <li>Publicidad</li>
+    <li>Fotografía</li>
+    <li>Video</li>
+  </ul>
+
+  <h2>Clientes</h2>
+  <p>Trabajamos con una amplia gama de clientes, desde startups hasta grandes corporaciones. Nuestra dedicación a la excelencia nos ha permitido establecer relaciones sólidas y duraderas con cada uno de ellos.</p>
+
+  <h2>Portafolio</h2>
+  <p>Explora algunos de nuestros proyectos destacados y descubre cómo hemos ayudado a otras empresas a alcanzar el éxito en sus campañas de comunicación.</p>
+
+  <h2>Blog</h2>
+  <p>Mantente actualizado con las últimas noticias y tendencias en comunicación y marketing digital a través de nuestro blog. Nuestro equipo comparte consejos útiles, estudios de caso y reflexiones sobre la industria.</p>
+  <ul>
+    <li>La Comunicación Efectiva en Redes</li>
+    <li>Qué es el Marketing Digital</li>
+    <li>Qué es el Marketing Tradicional</li>
+    <li>Qué es el Diseño Gráfico</li>
+    <li>Qué es la Publicidad</li>
+    <li>Cómo Integrar una Buena Estrategia de Comunicación en Redes Sociales</li>
+    <li>Qué es la Publicidad 360</li>
+  </ul>
+
+  <h2>Contáctanos</h2>
+  <p>¿Listo para llevar tu comunicación al siguiente nivel? ¡Contáctanos hoy mismo para comenzar a trabajar juntos en tu próximo proyecto!</p>
+
+  <h2>Redes Sociales</h2>
+  <p>Síguenos en nuestras redes sociales para obtener actualizaciones regulares, noticias del sector y contenido exclusivo.</p>
+
+  <h2>Nuestro Podcast</h2>
+  <p>Sumérgete en el mundo de la comunicación con nuestro podcast. Cada episodio ofrece información valiosa y entrevistas con expertos de la industria.</p>
+</div>
+
 </body>
 </html>
